@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Balsamiq Sans", cursive;
+    outline: 1px solid red;
+}
+
+/* nav bar styling */
+
+.navbar {
+    background-color: #9fc5f8;
+    color: white;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 20%;
+}
+
+.navbar > h1 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.navbar > ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* header styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 20%;
+    max-width: 800px;
+    border-bottom: 2px solid black;
+}
+
+header > h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+/* weather card container styling */
+.weather-card-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 0;
+    max-width: 800px;
+    margin: 0 20%;
+}
+
+/* weather card styling */
+
+.weather-card {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+    flex: 1;
+}
+
+.weather-card > h3 {
+    font-weight: 400;
+    font-size: 1.375rem;
+}
+
+.temps {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.weather-card img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.high {
+    color: #cf2a27;
+}
+
+.low {
+    color: #2b78e4;
+}
+
+/* cookie card styling */
+
+.cookies-card {
+    width: 60vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #eee;
+    border: 2px solid black;
+    max-width: 800px;
+    position: fixed;
+    bottom: 10px;
+    left: 20vw;
+}
+
+.cookies-card button {
+    background-color: #9fc5f8;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 0.5rem 1rem;
+}
+
+.cookies-card div p {
+    max-width: 450px;
+}
